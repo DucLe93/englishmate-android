@@ -46,6 +46,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun EnglishMateApp(onSpeak: (String) -> Unit) {
     var tab by remember { mutableStateOf(0) }
