@@ -21,7 +21,7 @@ private val words = listOf(
     Word("Improve", "Cải thiện", "I want to improve my English."),
     Word("Confident", "Tự tin", "She feels confident when speaking."),
     Word("Opportunity", "Cơ hội", "This is a great opportunity to learn."),
-    Word(" привычка", "Thói quen", "Reading every day is a good habit.")
+    Word("Habit", "Thói quen", "Reading every day is a good habit.")
 )
 
 class MainActivity : ComponentActivity() {
